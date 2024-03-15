@@ -1,8 +1,8 @@
 #!/bin/sh
 apt install sudo
-read -n 1 key -p "co hay khong"
 sudo apt update -y && sudo apt upgrade -y
 sudo apt install golang -y
+read -n 1 key -p "co hay khong"
 sudo apt install git -y
 git clone https://github.com/grafov/hulk.git && cd hulk
 clear

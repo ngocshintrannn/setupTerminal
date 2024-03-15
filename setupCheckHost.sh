@@ -1,6 +1,6 @@
 #!/bin/sh
 apt install sudo
-read -n 1
+read -n 1 key -p "co hay khong"
 sudo apt update -y && sudo apt upgrade -y
 sudo apt install golang -y
 sudo apt install git -y

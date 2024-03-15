@@ -1,2 +1,3 @@
 #!/bin/sh
-apt install sudo
+#apt install sudo
+echo Hello world

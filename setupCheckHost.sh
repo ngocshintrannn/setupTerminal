@@ -1,7 +1,9 @@
 #!/bin/sh
-apt install sudo -y
+apt install sudo
+read -n
 sudo apt update -y && sudo apt upgrade -y
 sudo apt install golang -y
 sudo apt install git -y
 git clone https://github.com/grafov/hulk.git && cd hulk
-echo dung lenh 'go run hulk.go -site 'webdos'' de chay
+clear
+echo Dung lenh *go run hulk.go -site + web can dos* de chay!!
